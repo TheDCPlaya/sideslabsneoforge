@@ -1,0 +1,39 @@
+plugins {
+    id 'net.neoforged.moddev' version '2.0.+'
+}
+
+version = mod_version
+group = 'com.thedcplaya.sideslabs'
+
+minecraft {
+    version = minecraft_version
+    mappings {
+        official()
+        parchment {
+            minecraftVersion = neoForge.parchment.minecraftVersion
+            mappingsVersion = neoForge.parchment.mappingsVersion
+        }
+    }
+}
+
+dependencies {
+    implementation "net.neoforged:neoforge:${neoforge_version}"
+}
+
+neoForge {
+    runs {
+        client {
+            client()
+            systemProperty 'neoforge.enabledGameTest', 'true'
+        }
+        server {
+            server()
+        }
+    }
+}
+
+tasks.withType(ProcessResources).configureEach {
+    filesMatching("META-INF/neoforge.mods.toml") {
+        expand project.properties
+    }
+}
