@@ -1,31 +1,29 @@
 package com.thedcplaya.sideslabs;
 
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
-import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
-import net.neoforged.neoforge.registries.DeferredRegister;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.function.Supplier;
+
+import static net.minecraft.world.item.CreativeModeTab.*;
 
 public class SideSlabItems {
+    // Replace this with your actual registration helper instance
+    // Example: public static final DeferredRegisterHelper<Item> ITEMS = ModItems.ITEMS;
+    // For the repo's helper name use the existing ITEMS field you already have.
+    public static final ItemsHelper ITEMS = ItemsHelper.INSTANCE; // <-- adjust to your helper
 
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(SideSlabs.MODID);
-    public static final List<DeferredItem<BlockItem>> ALL_ITEMS = new ArrayList<>();
+    // Register a BlockItem for the side slab
+    public static final DeferredItem<BlockItem> SIDE_SLAB_ITEM = ITEMS.registerItem(
+            "side_slab",
+            props -> new BlockItem(SideSlabBlocks.SIDE_SLAB.get(), props),
+            (Supplier<Item.Properties>) () -> new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)
+    );
 
-    static {
-        SideSlabBlocks.ALL_BLOCKS.forEach(blockReg -> {
-            DeferredItem<BlockItem> item = ITEMS.registerItem(
-                    blockReg.getId().getPath(),
-                    props -> new BlockItem(blockReg.get(), props),
-                    new Item.Properties()
-            );
-            ALL_ITEMS.add(item);
-        });
-    }
-
-    public static void register(IEventBus eventBus) {
-        ITEMS.register(eventBus);
+    // Call this from your mod init to ensure registration happens (if needed)
+    public static void register() {
+        // no-op if your registration system auto-registers static fields
     }
 }

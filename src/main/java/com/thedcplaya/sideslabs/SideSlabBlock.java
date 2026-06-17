@@ -1,28 +1,21 @@
 package com.thedcplaya.sideslabs;
 
-import com.mojang.serialization.MapCodec;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
-import net.minecraft.world.level.block.state.properties.Properties;
 
-public class SideSlabBlock extends HorizontalDirectionalBlock {
-    public static final EnumProperty<Direction> FACING = Properties.HORIZONTAL_FACING;
-    public static final MapCodec<SideSlabBlock> CODEC = Block.createCodec(SideSlabBlock::new);
+public class SideSlabBlock extends Block {
+    // Explicit horizontal EnumProperty (avoid Properties.HORIZONTAL_FACING mapping differences)
+    public static final EnumProperty<Direction> FACING =
+            EnumProperty.create("facing", Direction.class, Direction.NORTH, Direction.SOUTH, Direction.WEST, Direction.EAST);
 
     public SideSlabBlock(BlockBehaviour.Properties properties) {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
-    }
-
-    @Override
-    protected MapCodec<? extends SideSlabBlock> codec() {
-        return CODEC;
     }
 
     @Override

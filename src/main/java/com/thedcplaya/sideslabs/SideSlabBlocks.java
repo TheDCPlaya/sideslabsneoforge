@@ -54,7 +54,6 @@ public class SideSlabBlocks {
         register("blackstone", Blocks.BLACKSTONE_SLAB);
         register("polished_blackstone", Blocks.POLISHED_BLACKSTONE_SLAB);
         register("polished_blackstone_brick", Blocks.POLISHED_BLACKSTONE_BRICK_SLAB);
-        register("deepslate", Blocks.DEEPSLATE_SLAB);
         register("cobbled_deepslate", Blocks.COBBLED_DEEPSLATE_SLAB);
         register("polished_deepslate", Blocks.POLISHED_DEEPSLATE_SLAB);
         register("deepslate_brick", Blocks.DEEPSLATE_BRICK_SLAB);
@@ -68,8 +67,8 @@ public class SideSlabBlocks {
     private static void register(String name, Block base) {
         DeferredBlock<Block> block = BLOCKS.registerBlock(
                 name + "_side_slab",
-                props -> new SideSlabBlock(props),
-                BlockBehaviour.Properties.ofFullCopy(base));
+                SideSlabBlock::new
+        );
         ALL_BLOCKS.add(block);
     }
 
