@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/acacia_planks",
+    "south": "minecraft:block/acacia_planks",
+    "east": "minecraft:block/acacia_planks",
+    "west": "minecraft:block/acacia_planks",
+    "up": "minecraft:block/acacia_planks",
+    "down": "minecraft:block/acacia_planks",
+    "side": "minecraft:block/acacia_planks"
+  }
+}

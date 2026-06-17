@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/mossy_stone_bricks",
+    "south": "minecraft:block/mossy_stone_bricks",
+    "east": "minecraft:block/mossy_stone_bricks",
+    "west": "minecraft:block/mossy_stone_bricks",
+    "up": "minecraft:block/mossy_stone_bricks",
+    "down": "minecraft:block/mossy_stone_bricks",
+    "side": "minecraft:block/mossy_stone_bricks"
+  }
+}

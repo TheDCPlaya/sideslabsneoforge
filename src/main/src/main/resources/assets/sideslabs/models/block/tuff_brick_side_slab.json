@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/tuff_bricks",
+    "south": "minecraft:block/tuff_bricks",
+    "east": "minecraft:block/tuff_bricks",
+    "west": "minecraft:block/tuff_bricks",
+    "up": "minecraft:block/tuff_bricks",
+    "down": "minecraft:block/tuff_bricks",
+    "side": "minecraft:block/tuff_bricks"
+  }
+}

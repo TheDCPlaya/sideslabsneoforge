@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "sideslabs:block/stone_side_slab"
+    },
+    "facing=east": {
+      "model": "sideslabs:block/stone_side_slab",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sideslabs:block/stone_side_slab",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sideslabs:block/stone_side_slab",
+      "y": 270
+    }
+  }
+}

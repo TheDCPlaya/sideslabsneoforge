@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/prismarine",
+    "south": "minecraft:block/prismarine",
+    "east": "minecraft:block/prismarine",
+    "west": "minecraft:block/prismarine",
+    "up": "minecraft:block/prismarine",
+    "down": "minecraft:block/prismarine",
+    "side": "minecraft:block/prismarine"
+  }
+}

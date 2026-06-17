@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/diorite",
+    "south": "minecraft:block/diorite",
+    "east": "minecraft:block/diorite",
+    "west": "minecraft:block/diorite",
+    "up": "minecraft:block/diorite",
+    "down": "minecraft:block/diorite",
+    "side": "minecraft:block/diorite"
+  }
+}

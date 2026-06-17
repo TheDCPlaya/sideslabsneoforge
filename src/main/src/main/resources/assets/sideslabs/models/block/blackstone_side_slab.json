@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/blackstone",
+    "south": "minecraft:block/blackstone",
+    "east": "minecraft:block/blackstone",
+    "west": "minecraft:block/blackstone",
+    "up": "minecraft:block/blackstone",
+    "down": "minecraft:block/blackstone",
+    "side": "minecraft:block/blackstone"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/red_sandstone",
+    "south": "minecraft:block/red_sandstone",
+    "east": "minecraft:block/red_sandstone",
+    "west": "minecraft:block/red_sandstone",
+    "up": "minecraft:block/red_sandstone",
+    "down": "minecraft:block/red_sandstone",
+    "side": "minecraft:block/red_sandstone"
+  }
+}

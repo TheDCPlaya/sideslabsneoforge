@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/birch_planks",
+    "south": "minecraft:block/birch_planks",
+    "east": "minecraft:block/birch_planks",
+    "west": "minecraft:block/birch_planks",
+    "up": "minecraft:block/birch_planks",
+    "down": "minecraft:block/birch_planks",
+    "side": "minecraft:block/birch_planks"
+  }
+}

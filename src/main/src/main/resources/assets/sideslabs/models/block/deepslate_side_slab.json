@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/deepslate",
+    "south": "minecraft:block/deepslate",
+    "east": "minecraft:block/deepslate",
+    "west": "minecraft:block/deepslate",
+    "up": "minecraft:block/deepslate",
+    "down": "minecraft:block/deepslate",
+    "side": "minecraft:block/deepslate"
+  }
+}

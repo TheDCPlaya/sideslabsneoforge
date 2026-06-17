@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/jungle_planks",
+    "south": "minecraft:block/jungle_planks",
+    "east": "minecraft:block/jungle_planks",
+    "west": "minecraft:block/jungle_planks",
+    "up": "minecraft:block/jungle_planks",
+    "down": "minecraft:block/jungle_planks",
+    "side": "minecraft:block/jungle_planks"
+  }
+}

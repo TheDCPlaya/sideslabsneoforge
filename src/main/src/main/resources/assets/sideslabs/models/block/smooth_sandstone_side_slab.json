@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/smooth_sandstone",
+    "south": "minecraft:block/smooth_sandstone",
+    "east": "minecraft:block/smooth_sandstone",
+    "west": "minecraft:block/smooth_sandstone",
+    "up": "minecraft:block/smooth_sandstone",
+    "down": "minecraft:block/smooth_sandstone",
+    "side": "minecraft:block/smooth_sandstone"
+  }
+}

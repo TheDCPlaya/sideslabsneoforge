@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/cobblestone",
+    "south": "minecraft:block/cobblestone",
+    "east": "minecraft:block/cobblestone",
+    "west": "minecraft:block/cobblestone",
+    "up": "minecraft:block/cobblestone",
+    "down": "minecraft:block/cobblestone",
+    "side": "minecraft:block/cobblestone"
+  }
+}

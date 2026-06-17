@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/granite",
+    "south": "minecraft:block/granite",
+    "east": "minecraft:block/granite",
+    "west": "minecraft:block/granite",
+    "up": "minecraft:block/granite",
+    "down": "minecraft:block/granite",
+    "side": "minecraft:block/granite"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/mud_bricks",
+    "south": "minecraft:block/mud_bricks",
+    "east": "minecraft:block/mud_bricks",
+    "west": "minecraft:block/mud_bricks",
+    "up": "minecraft:block/mud_bricks",
+    "down": "minecraft:block/mud_bricks",
+    "side": "minecraft:block/mud_bricks"
+  }
+}

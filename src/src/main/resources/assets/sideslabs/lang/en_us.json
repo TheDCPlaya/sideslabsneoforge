@@ -1,0 +1,13 @@
+{
+  "itemGroup.sideslabs": "Example Mod Tab",
+  "block.sideslabs.example_block": "Example Block",
+  "item.sideslabs.example_item": "Example Item",
+
+  "sideslabs.configuration.title": "SideSlabs Configs",
+  "sideslabs.configuration.section.sideslabs.common.toml": "SideSlabs Configs",
+  "sideslabs.configuration.section.sideslabs.common.toml.title": "SideSlabs Configs",
+  "sideslabs.configuration.items": "Item List",
+  "sideslabs.configuration.logDirtBlock": "Log Dirt Block",
+  "sideslabs.configuration.magicNumberIntroduction": "Magic Number Text",
+  "sideslabs.configuration.magicNumber": "Magic Number"
+}

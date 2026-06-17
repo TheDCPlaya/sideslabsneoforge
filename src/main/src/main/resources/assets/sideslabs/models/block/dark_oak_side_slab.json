@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/dark_oak_planks",
+    "south": "minecraft:block/dark_oak_planks",
+    "east": "minecraft:block/dark_oak_planks",
+    "west": "minecraft:block/dark_oak_planks",
+    "up": "minecraft:block/dark_oak_planks",
+    "down": "minecraft:block/dark_oak_planks",
+    "side": "minecraft:block/dark_oak_planks"
+  }
+}

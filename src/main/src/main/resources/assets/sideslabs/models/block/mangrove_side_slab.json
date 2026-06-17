@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/mangrove_planks",
+    "south": "minecraft:block/mangrove_planks",
+    "east": "minecraft:block/mangrove_planks",
+    "west": "minecraft:block/mangrove_planks",
+    "up": "minecraft:block/mangrove_planks",
+    "down": "minecraft:block/mangrove_planks",
+    "side": "minecraft:block/mangrove_planks"
+  }
+}

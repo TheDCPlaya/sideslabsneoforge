@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/purpur",
+    "south": "minecraft:block/purpur",
+    "east": "minecraft:block/purpur",
+    "west": "minecraft:block/purpur",
+    "up": "minecraft:block/purpur",
+    "down": "minecraft:block/purpur",
+    "side": "minecraft:block/purpur"
+  }
+}

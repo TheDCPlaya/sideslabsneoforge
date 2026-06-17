@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/andesite",
+    "south": "minecraft:block/andesite",
+    "east": "minecraft:block/andesite",
+    "west": "minecraft:block/andesite",
+    "up": "minecraft:block/andesite",
+    "down": "minecraft:block/andesite",
+    "side": "minecraft:block/andesite"
+  }
+}

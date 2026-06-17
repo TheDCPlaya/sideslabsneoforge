@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/polished_tuff",
+    "south": "minecraft:block/polished_tuff",
+    "east": "minecraft:block/polished_tuff",
+    "west": "minecraft:block/polished_tuff",
+    "up": "minecraft:block/polished_tuff",
+    "down": "minecraft:block/polished_tuff",
+    "side": "minecraft:block/polished_tuff"
+  }
+}

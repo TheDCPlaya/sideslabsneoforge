@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/cherry_planks",
+    "south": "minecraft:block/cherry_planks",
+    "east": "minecraft:block/cherry_planks",
+    "west": "minecraft:block/cherry_planks",
+    "up": "minecraft:block/cherry_planks",
+    "down": "minecraft:block/cherry_planks",
+    "side": "minecraft:block/cherry_planks"
+  }
+}

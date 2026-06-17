@@ -1,0 +1,12 @@
+{
+  "parent": "sideslabs:block/side_slab",
+  "textures": {
+    "north": "minecraft:block/bamboo_planks",
+    "south": "minecraft:block/bamboo_planks",
+    "east": "minecraft:block/bamboo_planks",
+    "west": "minecraft:block/bamboo_planks",
+    "up": "minecraft:block/bamboo_planks",
+    "down": "minecraft:block/bamboo_planks",
+    "side": "minecraft:block/bamboo_planks"
+  }
+}
